@@ -1,0 +1,12 @@
+Source: ros-noetic-radar-msgs
+Section: misc
+Priority: optional
+Maintainer: Steve Macenski <stevenmacenski@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-std-msgs, ros-noetic-uuid-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-radar-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-std-msgs, ros-noetic-uuid-msgs
+Description: Standard ROS messages for radars

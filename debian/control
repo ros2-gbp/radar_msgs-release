@@ -1,0 +1,12 @@
+Source: ros-foxy-radar-msgs
+Section: misc
+Priority: optional
+Maintainer: Steve Macenski <stevenmacenski@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-builtin-interfaces, ros-foxy-geometry-msgs, ros-foxy-rosidl-default-generators, ros-foxy-std-msgs, ros-foxy-unique-identifier-msgs, ros-foxy-ros-workspace, ros-foxy-rosidl-typesupport-fastrtps-c, ros-foxy-rosidl-typesupport-fastrtps-cpp, ros-foxy-rosidl-typesupport-connext-c, ros-foxy-rosidl-typesupport-connext-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-radar-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-builtin-interfaces, ros-foxy-geometry-msgs, ros-foxy-rosidl-default-generators, ros-foxy-std-msgs, ros-foxy-unique-identifier-msgs, ros-foxy-ros-workspace
+Description: Standard ROS messages for radars

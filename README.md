@@ -1,3 +1,26 @@
+## radar_msgs (rolling) - 0.2.2-1
+
+The packages in the `radar_msgs` repository were released into the `rolling` distro by running `/usr/bin/bloom-release radar_msgs --rosdistro rolling --track rolling` on `Thu, 29 Sep 2022 18:22:49 -0000`
+
+The `radar_msgs` package was released.
+
+Version of package(s) in repository `radar_msgs`:
+
+- upstream repository: https://github.com/ros-perception/radar_msgs.git
+- release repository: https://github.com/ros2-gbp/radar_msgs-release.git
+- rosdistro version: `0.2.1-2`
+- old version: `0.2.1-2`
+- new version: `0.2.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## radar_msgs (foxy) - 0.2.1-1
 
 The packages in the `radar_msgs` repository were released into the `foxy` distro by running `/usr/bin/bloom-release radar_msgs --rosdistro foxy --track foxy --edit` on `Tue, 14 Sep 2021 20:36:16 -0000`

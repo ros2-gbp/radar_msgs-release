@@ -1,0 +1,12 @@
+Source: ros-jazzy-radar-msgs
+Section: misc
+Priority: optional
+Maintainer: Steve Macenski <stevenmacenski@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, libgeometry-msgs-dev, libstd-msgs-dev, python3-geometry-msgs, python3-std-msgs, ros-geometry-msgs, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-generators, ros-jazzy-unique-identifier-msgs, ros-std-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-radar-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgeometry-msgs-dev, libstd-msgs-dev, python3-geometry-msgs, python3-std-msgs, ros-geometry-msgs, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-generators, ros-jazzy-unique-identifier-msgs, ros-std-msgs, ros-jazzy-ros-workspace
+Description: Standard ROS messages for radars

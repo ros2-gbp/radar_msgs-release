@@ -1,0 +1,12 @@
+Source: ros-kilted-radar-msgs
+Section: misc
+Priority: optional
+Maintainer: Steve Macenski <stevenmacenski@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-builtin-interfaces, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-generators, ros-kilted-std-msgs, ros-kilted-unique-identifier-msgs, ros-kilted-ros-workspace, ros-kilted-rosidl-typesupport-fastrtps-c, ros-kilted-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-radar-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-builtin-interfaces, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-generators, ros-kilted-std-msgs, ros-kilted-unique-identifier-msgs, ros-kilted-ros-workspace
+Description: Standard ROS messages for radars
